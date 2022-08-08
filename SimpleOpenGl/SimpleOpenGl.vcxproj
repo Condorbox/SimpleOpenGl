@@ -80,8 +80,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>E:\Cursos\SimpleOpenGl\SimpleOpenGl\libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\Cursos\SimpleOpenGl\SimpleOpenGl\libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Programación\SimpleOpenGL\SimpleOpenGl\libraries\include;E:\Cursos\SimpleOpenGl\SimpleOpenGl\libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Programación\SimpleOpenGL\SimpleOpenGl\libraries\lib;E:\Cursos\SimpleOpenGl\SimpleOpenGl\libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
