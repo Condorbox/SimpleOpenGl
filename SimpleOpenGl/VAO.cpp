@@ -14,6 +14,7 @@ void VAO::LinkAttrib(VBO& VBO, GLuint layout, GLuint numComponents, GLenum type,
 	glEnableVertexAttribArray(layout);
 	VBO.Unbind();
 }
+
 // Binds the VAO
 void VAO::Bind()
 {

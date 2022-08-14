@@ -343,6 +343,7 @@ RECENT REVISION HISTORY:
 
 #ifndef STBI_NO_STDIO
 #include <stdio.h>
+#include<iostream>
 #endif // STBI_NO_STDIO
 
 #define STBI_VERSION 1

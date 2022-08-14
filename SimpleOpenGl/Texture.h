@@ -22,4 +22,4 @@ public:
 	// Deletes a texture
 	void Delete();
 };
-#endif 
+#endif
