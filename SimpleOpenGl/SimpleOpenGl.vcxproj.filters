@@ -90,5 +90,11 @@
     <Image Include="..\..\..\Users\manue\Desktop\brick.png">
       <Filter>Archivos de recursos\Textures</Filter>
     </Image>
+    <Image Include="C:\Users\Manuel\Desktop\S\planks.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="C:\Users\Manuel\Desktop\S\planksSpec.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
