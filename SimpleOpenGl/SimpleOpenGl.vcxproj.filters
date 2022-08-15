@@ -19,6 +19,36 @@
     <Filter Include="Archivos de recursos\Textures">
       <UniqueIdentifier>{acbe00c8-8349-4987-b847-64261056dccd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de recursos\Models">
+      <UniqueIdentifier>{f07d40be-40a3-4ee1-9a9b-961c21edb49a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Models\Bunny">
+      <UniqueIdentifier>{d617c173-8704-455c-ac88-e31b4a70b6f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Models\Grindstone">
+      <UniqueIdentifier>{9e683ddd-a6be-4f89-95e4-9ea914a51edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Models\Grindstone\Textures">
+      <UniqueIdentifier>{064c78e7-ac5f-43da-b877-807e2f7179fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Models\Map">
+      <UniqueIdentifier>{d02958f7-4779-4ffe-b7ff-3d713fc77d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Models\Map\Textures">
+      <UniqueIdentifier>{96f5a9d5-f585-41f6-990a-3d6883ef43f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Models\Scroll">
+      <UniqueIdentifier>{24ab16cc-3e16-4191-8461-680955a8a6de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Models\Scroll\Textures">
+      <UniqueIdentifier>{9e11d70b-8ac5-48fc-b470-14ac814bc60c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Models\Sword">
+      <UniqueIdentifier>{725af60d-09d4-4762-b2c0-3b975ea6a7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Models\Sword\Textures">
+      <UniqueIdentifier>{936a6cd2-aa83-4afd-8940-1e464a522c34}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -51,6 +81,9 @@
     <ClCompile Include="Mesh.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="default.vert">
@@ -64,6 +97,36 @@
     </None>
     <None Include="light.frag">
       <Filter>Archivos de recursos\Shaders</Filter>
+    </None>
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\bunny\scene.bin">
+      <Filter>Archivos de recursos\Models\Bunny</Filter>
+    </None>
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\bunny\scene.gltf">
+      <Filter>Archivos de recursos\Models\Bunny</Filter>
+    </None>
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\grindstone\scene.bin">
+      <Filter>Archivos de recursos\Models\Grindstone</Filter>
+    </None>
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\grindstone\scene.gltf">
+      <Filter>Archivos de recursos\Models\Grindstone</Filter>
+    </None>
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\map\scene.bin">
+      <Filter>Archivos de recursos\Models\Map</Filter>
+    </None>
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\map\scene.gltf">
+      <Filter>Archivos de recursos\Models\Map</Filter>
+    </None>
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\scroll\scene.bin">
+      <Filter>Archivos de recursos\Models\Scroll</Filter>
+    </None>
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\scroll\scene.gltf">
+      <Filter>Archivos de recursos\Models\Scroll</Filter>
+    </None>
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\sword\scene.bin">
+      <Filter>Archivos de recursos\Models\Sword</Filter>
+    </None>
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\sword\scene.gltf">
+      <Filter>Archivos de recursos\Models\Sword</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -88,6 +151,9 @@
     <ClInclude Include="Mesh.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\Users\manue\Desktop\pop_cat.png">
@@ -101,6 +167,30 @@
     </Image>
     <Image Include="C:\Users\Manuel\Desktop\S\planksSpec.png">
       <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\grindstone\textures\Main_baseColor.jpeg">
+      <Filter>Archivos de recursos\Models\Grindstone\Textures</Filter>
+    </Image>
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\grindstone\textures\Main_metallicRoughness.png">
+      <Filter>Archivos de recursos\Models\Grindstone\Textures</Filter>
+    </Image>
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\grindstone\textures\Main_normal.png">
+      <Filter>Archivos de recursos\Models\Grindstone\Textures</Filter>
+    </Image>
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\map\textures\Material.001_baseColor.png">
+      <Filter>Archivos de recursos\Models\Map\Textures</Filter>
+    </Image>
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\scroll\textures\lambert4SG_baseColor.png">
+      <Filter>Archivos de recursos\Models\Scroll\Textures</Filter>
+    </Image>
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\sword\textures\Object001_mtl_baseColor.jpeg">
+      <Filter>Archivos de recursos\Models\Sword\Textures</Filter>
+    </Image>
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\bunny\baseColor.png">
+      <Filter>Archivos de recursos\Models\Bunny</Filter>
+    </Image>
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\bunny\metallicRoughness.png">
+      <Filter>Archivos de recursos\Models\Bunny</Filter>
     </Image>
   </ItemGroup>
 </Project>

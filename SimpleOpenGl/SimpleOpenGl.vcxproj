@@ -150,6 +150,7 @@
     <ClCompile Include="glad.c" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Model.cpp" />
     <ClCompile Include="shaderClass.cpp" />
     <ClCompile Include="stb.cpp" />
     <ClCompile Include="Texture.cpp" />
@@ -157,6 +158,16 @@
     <ClCompile Include="VBO.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\bunny\scene.bin" />
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\bunny\scene.gltf" />
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\grindstone\scene.bin" />
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\grindstone\scene.gltf" />
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\map\scene.bin" />
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\map\scene.gltf" />
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\scroll\scene.bin" />
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\scroll\scene.gltf" />
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\sword\scene.bin" />
+    <None Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\sword\scene.gltf" />
     <None Include="default.frag" />
     <None Include="default.vert" />
     <None Include="light.frag" />
@@ -166,6 +177,7 @@
     <ClInclude Include="Camera.h" />
     <ClInclude Include="EBO.h" />
     <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
     <ClInclude Include="shaderClass.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="VAO.h" />
@@ -174,6 +186,14 @@
   <ItemGroup>
     <Image Include="..\..\..\Users\manue\Desktop\brick.png" />
     <Image Include="..\..\..\Users\manue\Desktop\pop_cat.png" />
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\bunny\baseColor.png" />
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\bunny\metallicRoughness.png" />
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\grindstone\textures\Main_baseColor.jpeg" />
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\grindstone\textures\Main_metallicRoughness.png" />
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\grindstone\textures\Main_normal.png" />
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\map\textures\Material.001_baseColor.png" />
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\scroll\textures\lambert4SG_baseColor.png" />
+    <Image Include="C:\Users\Manuel\Desktop\opengl-tutorials-2d043faa75919a132e0beecda9e14b8c49df806e\YoutubeOpenGL 13 - Model Loading\models\sword\textures\Object001_mtl_baseColor.jpeg" />
     <Image Include="C:\Users\Manuel\Desktop\S\planks.png" />
     <Image Include="C:\Users\Manuel\Desktop\S\planksSpec.png" />
   </ItemGroup>
